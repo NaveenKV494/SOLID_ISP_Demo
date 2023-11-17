@@ -51,6 +51,8 @@
     <Compile Include="IBorrowable.cs" />
     <Compile Include="IBorrowableAudioBook.cs" />
     <Compile Include="IBorrowableBook.cs" />
+    <Compile Include="IBorrowableDVD.cs" />
+    <Compile Include="IDVD.cs" />
     <Compile Include="ILibraryItem.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
