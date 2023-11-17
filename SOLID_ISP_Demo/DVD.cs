@@ -6,11 +6,7 @@ using System.Threading.Tasks;
 
 namespace SOLID_ISP_Demo
 {
-    public class Program
+    public class DVD
     {
-        static void Main(string[] args)
-        {
-            Console.ReadLine();
-        }
     }
 }
