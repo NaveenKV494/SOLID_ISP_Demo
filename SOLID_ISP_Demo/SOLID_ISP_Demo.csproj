@@ -46,6 +46,7 @@
     <Compile Include="AudioBook.cs" />
     <Compile Include="Book.cs" />
     <Compile Include="DVD.cs" />
+    <Compile Include="IAudioBook.cs" />
     <Compile Include="IBook.cs" />
     <Compile Include="IBorrowable.cs" />
     <Compile Include="IBorrowableBook.cs" />
