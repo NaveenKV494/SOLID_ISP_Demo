@@ -49,6 +49,7 @@
     <Compile Include="IAudioBook.cs" />
     <Compile Include="IBook.cs" />
     <Compile Include="IBorrowable.cs" />
+    <Compile Include="IBorrowableAudioBook.cs" />
     <Compile Include="IBorrowableBook.cs" />
     <Compile Include="ILibraryItem.cs" />
     <Compile Include="Program.cs" />

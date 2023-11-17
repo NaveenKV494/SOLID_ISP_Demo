@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SOLID_ISP_Demo
 {
-    public class AudioBook : ILibraryItem
+    public class AudioBook : IBorrowableAudioBook
     {
         public string LibraryId { get; set; }
         public string Title { get; set; }
@@ -14,6 +14,7 @@ namespace SOLID_ISP_Demo
         public int CheckOutDurationInDays { get; set; } = 14;
         public string Borrower { get; set; }
         public DateTime BorrowDate { get; set; }
+        public int RuntimeInMinutes { get; set; }
 
         public void CheckOut(string borrower)
         {
