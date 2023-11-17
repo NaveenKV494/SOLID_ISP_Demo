@@ -6,11 +6,9 @@ using System.Threading.Tasks;
 
 namespace SOLID_ISP_Demo
 {
-    public interface ILibraryItem
+    public interface IBook : ILibraryItem
     {
-
-        string LibraryId { get; set; }
-        string Title { get; set; }
-
+        string Author { get; set; }
+        int Pages { get; set; }
     }
 }
